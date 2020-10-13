@@ -1,0 +1,177 @@
+body {
+
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#p1 {
+    color: #0f4c75;
+    font-family: 'Spartan', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+/*This is to set the line break to dotted style*/
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: grey;
+    width: 5%;
+    border-top-width: 5px;
+    margin: 100px auto;
+}
+
+.p2 {
+    line-height: 2;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 0 25% 0 25%;
+}
+.contact-msg {
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    margin:30px auto 60px;
+    width : 40%;
+}
+
+.p3 {
+    line-height: 2;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 4.325rem;
+    color: #0f4c75;
+    font-family: 'Tangerine', cursive;
+    line-height: 0.5;
+}
+
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
+    color: #0f4c75;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Spartan', sans-serif;
+    color: #023e8a;
+    padding: 0;
+
+}
+
+.h3-1 {
+    font-family: 'Spartan', sans-serif;
+    color: #3282b8;
+    padding: 0;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 135px;
+}
+
+.middle-container {
+    padding: 90px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    padding: 45px 0 100px 200px;
+    top:50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    padding-top: 60px;
+    left: 200px;
+}
+
+
+
+.intro {
+    padding-top: 135px;
+}
+
+.mountain {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+
+.skill-row {
+    width: 50%;
+    margin: 75px auto 75px auto;
+    text-align: left;
+}
+
+.skill-1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-2 {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #11999E;
+}
+a:hover{
+    color:#EAF6F6;
+}
+
+.copyright {
+    margin-top: 2%;
+    color: #EAF6F6;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.btn {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 225;
+    border-radius: 8px;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 100;
+    background-color: #66BFBF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin: 2% auto 3% auto;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    text-decoration: none;
+}
