@@ -100,12 +100,14 @@ h3 {
 }
 
 .mountain {
-    max-width: 100%;
     height: auto;
     position: relative;
     margin-top: 40px;
 }
 /* this allow us to resize image based on device */
+img {
+    max-width: 100%;
+  }
 .skill-row {
     width: 50%;
     margin: 75px auto 75px auto;
